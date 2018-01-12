@@ -1,17 +1,17 @@
 <html> <head> <style> body{color:"white";}</style>
-<title>Yishak's Webpage</title>
+<title>የይስሀቅ ድህረ-ገጽ</title>
 <link rel="icon"
 type="image/png" href="{{url_for('static', filename='icon.png')}}"> </head>
 <body bgcolor="grey" align= "left" >
-<div id="body"></div><div class="w3-container w3-navbar w3-grey w3-margin-left-100 w3-margin-right-100">
-    <li style="width:33%"><a class="w3-border w3-center w3-dark-grey" href="index2.html">Amharic</a></li>
-    <li  style="width:34%"><a class= "w3-border w3-center w3-dark-grey" href="index.html">English</a></li>
+<div class="w3-container w3-navbar w3-grey w3-margin-left-100 w3-margin-right-100">
+    <li style="width:33%"><a class="w3-border w3-center w3-dark-grey" href="index2.html">አማርኛ</a></li>
+    <li  style="width:34%"><a class= "w3-border w3-center w3-dark-grey" href="index.html">እንግሊዝኛ</a></li>
    <li class="w3-right" style="width:33%">
         <form name="cse" id="searchbox_demo" action="https://www.google.com/search">
   <input type="hidden" name="cref" value="" />
   <input type="hidden" name="ie" value="utf-8" />
   <input type="hidden" name="hl" value="" />
-  <input name="q" type="text" class="w3-input w3-dark-grey"  placeholder="Google stuff...">
+  <input name="q" type="text" class="w3-input w3-dark-grey w3-border"  placeholder="ይሄን ፈልግ...">
 </form>
 <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script></li>
 </div>
@@ -20,43 +20,41 @@ type="image/png" href="{{url_for('static', filename='icon.png')}}"> </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{url_for('static', filename='w3.css')}}">
 <style>
-.mySlides {display:none;overflow-x:auto; overflow-y:hidden;}
+.mySlides {display:none;overflow-x:auto;overflow-y:hidden}
 </style>
 <hr>
-<h4 align="center">Code borrowed from my page for Prof. Canon's Intro to Java class</h4>
-<h2 align="center"><a href="index.html">Yishak Mohammed</a></br>
+<h2 align="center">ኮዱ ለፕሮፌሰር ካነን ክላስ ከሰራሁት የተወሰደ ነው</h2>
+<h2 align="center"><a href="index2.html">ይስሀቅ መሀመድ</a></br>
 <hr>
 </div>
 <div class="w3-container w3-grey w3-margin-left:100 w3-margin-right:100">
 <hr>
+
 <div class="w3-content w3-display-container">
-<h3>Here's a slide of pictures:</h3>
-
-
+<h3>የምስል ቅንብር፥</h3>
 <div class="w3-display-container w3-center mySlides">
-  <img src="{{url_for('static', filename='me3.jpg')}}" height=480px width=800px>
-  <div class="w3-display-bottommiddle w3-large w3-container  w3-black">
-    That old thing...
+  <img src="{{url_for('static', filename='me3.jpg')}}" height=500px width=800px>
+  <div class="w3-display-bottommiddle w3-large w3-container  w3-black">ይሄ ነገር...
 </div>
 </div>
 
 <div class="w3-display-container w3-center mySlides">
-<img src="{{url_for('static', filename='me4.jpg')}}" height=480px width=800px>
+<img src="{{url_for('static', filename='me4.jpg')}}" height=500px width=800px>
   <div class="w3-display-bottommiddle w3-large w3-container w3-black">
-    Addis Ababa, Ethiopia
+    አዲስ አበባ ፣ ኢትዮጵያ
 </div>
 </div>
 <div class="w3-display-container w3-center mySlides">
-<img src="{{url_for('static', filename='me5.jpg')}}" height=480px width=800px>
+<img src="{{url_for('static', filename='me5.jpg')}}" height=500px width=800px>
   <div class="w3-display-bottommiddle w3-large w3-container  w3-black">
-    Columbia University
+    ኮለምቢያ ዩኒቨርሲቲ
  </div>
 </div>
 <div class="w3-display-container w3-center mySlides">
-  <img src="{{url_for('static', filename='me1.jpg')}}" height=480px width=800px >
+  <img src="{{url_for('static', filename='me1.jpg')}}" height=500px width=800px >
 
   <div class="w3-display-bottommiddle w3-large w3-container  w3-black">
-    That guy...
+    ይሄ ልጅ...
   </div>
 </div>
 </h2>
@@ -93,26 +91,27 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 5000); // Change image every 5 seconds
+    setTimeout(carousel, 3000);
 }
 </script>
 </div>
 <div class="w3-container w3-black w3-margin-left:100 w3-margin-right:100">
 <hr>
 <p>
-<h3>A little about me... </h3>
+<h3>ስለራሴ፥  </h3>
 <h4>
 <ul>
-<li>As a freshman at <a href="http://www.college.columbia.edu">Columbia
-College</a> of <a
-href="http://www.columbia.edu">Columbia University</a>, I am currently pursuing my passion for Computer Science and all it has to offer and discovering the field of Economics.
-</br>
-<li>When I am not at the hands of Youtube, Facebook and what not, I write short, sometimes fictional, and other times not, stories.</br>
+<li>ወርቃማውን የወጣትነቴን ዘመን<a
+href="http://www.columbia.edu"> በኮለምቢያ ዩኒቨርሲቲ</a> ስር በሚገኘው<a
+href="http://www.college.columbia.edu"> ኮለምቢያ ኮሌጅ </a> የኮምፕዩተር
+ሳይንስ እያጠናሁ እግኛለሁ። በተጨማሪም፣ የኢኮኖሚክስ ትምህርት እየተማርኩ እገኛለሁ።</br>
+
+	<li>ጊዜዬን በፌስቡክ እንዲሁም በዩቲዩብ በማላጠፋበት ጊዜ የተለያዩ ጽሁፎች እጽፋለሁ።</br>
 </br>
 </br>
 </h4>
-<font align="center" size=3><b>I don't really have a preference for colors. But here's a cool color wheel, just for fun:</b></font>
-</br>
+<font size=3><b>የምወደው ቀለም አለኝ ባልልም፣ በቀጣዩ ማህደረ ቀለማት ተደሰቱ፥</b></font>
+
 <div align="center" class=" w3-black">
   <img  src="{{url_for('static', filename='colorwheel.png')}}" height=800px width=800px>
 </div>
@@ -121,17 +120,17 @@ href="http://www.columbia.edu">Columbia University</a>, I am currently pursuing 
 </div>
 <div class="w3-container w3-grey  w3-margin-left:100px w3-margin-right:100px">
 <hr>
-<b>Contact Me @</b></br>
+<b>ስለኔ ለበለጠ ምረጃ፥ </b></br>
 <a href="https://www.facebook.com/Yitzhaq.M"><img align=center src =
 "{{url_for('static', filename='Facebook.png')}}" width="30" height="30"></a>
 <a href="https://www.twitter.com/YitzhaqM"><img align=center src =
 "{{url_for('static', filename='Twitter.png')}}" width="30" height="30"></a>
 <a href="https://www.linkedin.com/in/yishak-mohammed-54406b12b"><img
 align=center src = "{{url_for('static', filename='Linkedin.png')}}"width="30" height="30"></a>
-<a href="mailto:ytm2102@columbia.edu"><img src="{{url_for('static', filename='gmail.png')}}" align="center" height="30" width="30"></a>
-</br><b>Mailing Address:</b> Yishak Tofik Mohammed 5580 </br>
-	70 Morningside Drive | New York, NY 10027</br>
-<b>	Tel:</b> (917) 412-7058 </br>
+<a href="mailto:ytm2102@columbia.edu"><img align=center src="{{url_for('static', filename='gmail.png')}}" width="30" height="30"></a>
+</br><b>ፖስታ አድራሻ</b> ይስሀቅ ቶፊቅ መሀመድ ፭፭፹</br>
+	፸ ሞርኒንግሳይድ ድራይቭ  | ኒው ዮርክ፣ ኒው ዮርክ ፻፪፯</br>
+<b>	ስልክ ቁጥር፥   </b> (፱፩፯) ፬፩፪ ፸፭፰ </br>
 </h5>
 
 <h6 align=center>Copyright &copy  2017 Yitzhaq_M. All Rights
