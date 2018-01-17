@@ -2,9 +2,12 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET', 'POST'])
+def main():
+    return render_template('indexOG.html')
 
 @app.route('/ytm2102', methods=['GET', 'POST'])
-def main():
+def uni():
     return render_template('index.html')
 
 @app.route('/index.html', methods=['GET', 'POST'])
